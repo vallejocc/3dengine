@@ -1,0 +1,194 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW_CONFIGCOM DIALOG DISCARDABLE  0, 0, 326, 263
+STYLE DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Binary",IDC_BINARY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,34,10,9
+    CONTROL         "Parity",IDC_PARITY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,45,10,9
+    CONTROL         "OutXCtsFlow",IDC_OUTXCTSFLOW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,56,10,9
+    CONTROL         "OutXDsrFlow",IDC_OUTXDSRFLOW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,67,10,9
+    CONTROL         "Dtr control",IDC_DTRCONTROL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,79,10,9
+    CONTROL         "Dsr sensitive",IDC_DSRSENSITIVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,88,90,10,9
+    LTEXT           "Binary",IDC_STATIC_BINARY,13,34,22,10
+    LTEXT           "Parity",IDC_STATIC_PARITY,13,45,33,10
+    LTEXT           "OutXCtsFlow",IDC_STATIC_OUTXCTSFLOW,13,57,43,9
+    LTEXT           "OutXDsrFlow",IDC_STATIC_OUTXDSRFLOW,13,69,45,8
+    LTEXT           "DtrControl",IDC_STATIC_DTRCONTROL,13,80,45,8
+    LTEXT           "DsrSensitive",IDC_STATIC_DSRSENSITIVE,13,91,45,8
+    CONTROL         "TXContinueOnXoff",IDC_TXCONTINUEONXOFF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,88,100,10,10
+    LTEXT           "TXContinueOnXoff",IDC_STATIC_TXCONTINUEONXOFF,13,100,63,
+                    8
+    CONTROL         "OutX",IDC_OUTX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,88,
+                    110,10,10
+    LTEXT           "OutX",IDC_STATIC_OUTX,13,110,63,8
+    CONTROL         "InX",IDC_INX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,88,
+                    121,10,10
+    LTEXT           "InX",IDC_STATIC_INX,13,121,63,8
+    CONTROL         "ErrorChar",IDC_ERRORCHAR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,131,10,10
+    LTEXT           "ErrorChar",IDC_STATIC_ERRORCHAR,13,132,63,8
+    CONTROL         "Null",IDC_NULL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,88,
+                    142,10,10
+    LTEXT           "Null",IDC_STATIC_NULL,13,142,63,8
+    CONTROL         "RtsControl",IDC_RTSCONTROL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,153,10,10
+    LTEXT           "RtsControl",IDC_STATIC_RTSCONTROL,13,153,63,8
+    CONTROL         "AbortOnError",IDC_ABORTONERROR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,88,163,10,10
+    LTEXT           "AbortOnError",IDC_STATIC_ABORTONERROR,13,164,63,8
+    EDITTEXT        IDC_XONLIMVAL,242,43,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "XOnLimVal",IDC_STATIC_XONLIMVAL,185,47,37,10
+    EDITTEXT        IDC_BAUDRATEVAL,242,21,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "BaudRateVal",IDC_STATIC_BAUDRATEVAL,185,24,53,10
+    EDITTEXT        IDC_XOFFLIMVAL,242,66,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "XOffLimVal",IDC_STATIC_XOFFLIMVAL,185,70,37,10
+    EDITTEXT        IDC_BYTESIZEVAL,242,87,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "ByteSizeVal",IDC_STATIC_BYTESIZEVAL,185,90,47,10
+    EDITTEXT        IDC_PARITYVAL,242,107,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "ParityVal",IDC_STATIC_PARITYVAL,185,110,37,10
+    EDITTEXT        IDC_STOPBITSVAL,242,128,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "StopBitsVal",IDC_STATIC_STOPBITSVAL,185,131,37,10
+    EDITTEXT        IDC_XONCHARVAL,242,151,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "XOnCharVal",IDC_STATIC_XONCHARVAL,185,154,44,10
+    EDITTEXT        IDC_XOFFCHARVAL,242,172,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "XOffCharVal",IDC_STATIC_XOFFCHARVAL,185,176,44,10
+    EDITTEXT        IDC_ERRORCHARVAL,242,195,74,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "ErrorCharVal",IDC_STATIC_ERRORCHARVAL,185,199,50,10
+    EDITTEXT        IDC_EOFCHARVAL,242,218,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "EofCharVal",IDC_STATIC_EOFCHARVAL,185,222,37,10
+    EDITTEXT        IDC_EVTCHARVAL,242,241,74,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "EvtChar",IDC_STATIC_EVTCHARVAL,185,244,37,10
+    PUSHBUTTON      "Accept configuration",IDC_BUTTONACCEPTCONFIGURATION,31,
+                    213,99,17
+    LTEXT           "Select a configuration for COM port...",
+                    IDC_STATIC_BINARY_TITLE,11,5,149,10
+END
+
+IDD_FORMVIEW_GETCOMNUMBER DIALOGEX 0, 0, 129, 57
+STYLE DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_BORDER
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_GETCOMNUMBER_EDITBOX,5,21,118,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Select COM Port Number...",
+                    IDC_STATIC_GETCOMNUMBER_STATIC_TEXT,20,4,90,12
+    PUSHBUTTON      "Accept",IDC_BUTTON_GETCOMNUMBER_ACCEPT,28,39,73,14
+END
+
+IDD_FORMVIEW_GETPHONE_NUMBER DIALOGEX 0, 0, 129, 57
+STYLE DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_BORDER
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_GETDATABASENUMBER_EDITBOX,5,21,118,13,
+                    ES_AUTOHSCROLL
+    LTEXT           "Select Phone  Number...",
+                    IDC_STATIC_GETCOMNUMBER_STATIC_TEXT,20,4,90,12
+    PUSHBUTTON      "Accept",IDC_BUTTON_GETDATABASENUMBER_ACCEPT,28,39,73,14
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Select file...",              ID_MAINMENU_FILE_SELECT_FILE
+        MENUITEM "Select directory...",         ID_MAINMENU_FILE_SELECT_DIRECTORY
+
+    END
+END
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
